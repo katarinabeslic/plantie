@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/apiResultItem"
+    android:id="@+id/plantInfoApi"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="20dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/etPlantName">
+
+    <TextView
+        android:id="@+id/txtScientificNameAPI"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/txtFamilyAPI" />
+
+    <TextView
+        android:id="@+id/txtFamilyAPI"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/txtCommonNameAPI" />
+
+    <TextView
+        android:id="@+id/txtCommonNameAPI"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/imgPlantAPI" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Common name:"
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPlantAPI" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Scientific name:"
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="139dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Family:"
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnAddToGardenAPI"
+        android:layout_width="123dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/buttonColor"
+        android:fontFamily="@font/amaranth"
+        android:text="Add plant to my garden"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/imgPlantAPI"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPlantAPI"
+        android:layout_width="206dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSlugAPI"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amaranth"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/imgPlantAPI"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddToGardenAPI" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4fa343</color>
+    <color name="colorPrimaryDark">#48b168</color>
+    <color name="colorAccent">#25763d</color>
+
+    <color name="buttonColor">#9fff80</color>
+    <color name="apiResultItem">#e6ffcc</color>
+    <color name="reminderColor">#e6fff2</color>
+</resources>

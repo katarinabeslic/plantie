@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "64805198143",
+    "firebase_url": "https://plantie-f0d5f.firebaseio.com",
+    "project_id": "plantie-f0d5f",
+    "storage_bucket": "plantie-f0d5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64805198143:android:f60fbcb652692582265b8a",
+        "android_client_info": {
+          "package_name": "com.example.plantie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64805198143-eufme2771rmtpd4fucn9v6e59b6mo25i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plantie",
+            "certificate_hash": "0c7c2ee480d1d1d04c677a3ef9bb1c813f07419a"
+          }
+        },
+        {
+          "client_id": "64805198143-h25d63j56bm07av82jadbs813cq252tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFJQUAbqWrDblH0XJMNUAd9vcp1EhZ7w8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64805198143-h25d63j56bm07av82jadbs813cq252tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

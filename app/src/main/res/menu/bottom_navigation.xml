@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_search"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/nav_reminder"
+        android:enabled="true"
+        android:icon="@drawable/reminder"
+        android:title="Reminder"/>
+
+    <item
+        android:id="@+id/nav_garden"
+        android:enabled="true"
+        android:icon="@drawable/flower"
+        android:title="My Garden"/>
+
+</menu>
